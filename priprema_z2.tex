@@ -1,0 +1,77 @@
+\documentclass[12pt, twocolumn, a4paper]{article}
+\usepackage[bosnian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\begin{document}
+\title{Priprema 2}
+\author{Amar Čirgić}
+\maketitle
+\section{Formule}
+Zagrade promijenjive veličine:
+$$ \Gamma = \left[ \frac{1+\left( \frac{1-x}{1+x}\right)^2 }{x+\frac{3}{4}}\right]^3 $$
+
+Formula u više redova
+\begin{align}
+4x+y &= 7 \nonumber \\ 
+35x-572y &= 125 \nonumber
+\end{align}
+Formule sa matricama
+$$
+\begin{bmatrix}
+	4 & 1 \\
+	35 & -572
+\end{bmatrix} 
+\begin{bmatrix}
+	x \\
+	y
+\end{bmatrix} 
+=
+\begin{bmatrix}
+	7 \\
+	125
+\end{bmatrix}
+$$
+i još jedna
+$$
+A=
+\begin{bmatrix}
+	4 & 1 \\
+	35 & -572 
+\end{bmatrix}
+$$
+
+\section{Rad sa listama}
+Oblici ispitivanja:
+\begin{enumerate}
+	\item Domaći zadaci i vježbe
+	\item Kolokvijumi
+		\begin{enumerate}
+			\item I kolokvijum
+			\item II kolokvijum
+		\end{enumerate}
+	\item Završni ispit
+\end{enumerate}
+\section{Rad sa tabelama}
+Primjer tabele:
+\begin{table}[h]
+	\begin{tabular}{|l|c|r|}
+		\hline
+		Naziv & Količina & Cijena \\ 
+		\hline 
+		\hline
+		Računar & 5 & 515,00 \\ \hline
+		CD & 150 & 0,45 \\ \hline
+		DVD & 25 & 0,85 \\ \hline
+		Štampač & 2 & 57,30 \\ \hline 
+	\end{tabular}
+\end{table}
+
+Dodajte malo praznog prostora\footnote{Na primjer komandom \textbackslash \textbf{medskip}} iznad i ispod tabele. Pokušajte da centrirate tabelu
+\section{Tabbing okruženje}
+U narednoj rečenici je ispod svake riječi ispisan broj slova. U trećem redu je ispod najkraće\footnote{Najkraća riječ je ona koja ima najmanje slova} riječi simbol - a ispod najduže\footnote{Najduža riječ je ona koja ima najviše slova} simbol +.
+\begin{tabbing}
+	\=Ovo \=je \=primjer \=tabbing \=okruženja.\\
+	\>3 \>2 \>7 \>7 \>9 \\
+	\> \>-- \> \> \>+
+\end{tabbing}
+\end{document}
